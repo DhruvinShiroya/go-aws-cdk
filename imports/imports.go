@@ -6,9 +6,9 @@ import "fmt"
 type Ticket struct{
 
   ID int
-  event string
+  Event string
 }
 
 func (t Ticket) printEvent(){
-  fmt.Println(t.event)
+  fmt.Println(t.Event)
 }
