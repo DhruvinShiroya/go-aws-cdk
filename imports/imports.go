@@ -9,6 +9,6 @@ type Ticket struct{
   Event string
 }
 
-func (t Ticket) printEvent(){
+func (t Ticket) PrintEvent(){
   fmt.Println(t.Event)
 }
